@@ -10,7 +10,7 @@ const CANVAS_WIDTH = canvas.width = 600;
 const CANVAS_HEIGHT = canvas.height = 600;
 
 const playerImage = new Image();
-playerImage.src = 'https://www.frankslaboratory.co.uk/downloads/shadow_dog.png'
+playerImage.src = 'shadow_dog.png'
 const spriteWidth = 575; //image is 6876px widtd, 12 columns
 const spriteHeight = 523;    // height is 5230px and 10 rows
 let gameFrame = 0;
