@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,6 +9,23 @@
     </head>
     <body>
         <canvas id="canvas1"></canvas>
+        <div class="controls">
+            <label for="animations">Choose Aninmation</label>
+           <select id="animations" name = 'animations'>
+                <option value="idle">Still</option>
+                <option value="jump">Jump</option>
+                <option value="fall">Fall</option>
+                <option value="run">Run</option>
+                <option value="dizzy">Dizzy</option>
+                <option value="sit">Sit</option>
+                <option value="roll">Roll</option>
+                <option value="bite">Bite</option>
+                <option value="ko">KO</option>
+                <option value="getHit">Get hit</option>
+           </select> 
+        </div>
+
+    
        
         <script src="app.js" async defer></script>
     </body>
